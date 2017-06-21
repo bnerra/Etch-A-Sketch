@@ -1,0 +1,174 @@
+/*Style sheet for sketchpad*/
+body {
+  background-image:url("img/bg.jpg");
+}
+
+#alert {
+  position:relative;
+  z-index: 1000;
+  width:auto;
+  height:auto;
+  margin: 150px auto;
+}
+
+.panel {
+  border-style: solid;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  margin: 10px auto;
+}
+
+#btn_play {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 15px;
+  float:left;
+  margin-top: 25px;
+  background-color: #00ccff;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#btn_play:hover {
+  background-color: #005266;
+  color: white;
+
+}
+
+#btn_change {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 15px;
+  float:none;
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: #9966ff;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#btn_change:hover {
+  background-color: #4d0099;
+  color: white;
+
+}
+
+#btn_clear {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 15px;
+  float:right;
+  margin-top: 25px;
+  background-color:#a6a6a6;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#btn_clear:hover {
+  background-color:#404040;
+  color: white;
+}
+
+#btn_play p {
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+
+#btn_change p {
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+
+#btn_clear p {
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+
+.pad {
+border-style: solid;
+height: 500px;
+width: 500px;
+margin: 50px auto;
+position:relative;
+border-radius: 10px;
+}
+
+.unit {
+ background-color: #990000;
+border:1px solid black;
+float:left;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.color {
+  background-color: red;
+  border:1px solid black;
+  float:left;
+  box-sizing: border-box;
+}
+
+/*.custom {
+  position:absolute;
+  border-style: solid;
+  width: 200px;
+  height: 500px;
+  position: relative;
+  margin: -550px auto;
+  margin-right: 30px;
+}
+
+#btn_choose {
+  position:relative;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-left: 550px;
+  background-color: #00cc00;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#btn_choose:hover {
+  background-color: #006600;
+  color: white;
+
+}
+
+#btn_choose p {
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+
+#btn_lucky {
+  position:relative;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left:550px;
+  background-color: #cc0000;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#btn_lucky:hover {
+  background-color: #660000;
+  color: white;
+
+}
+
+#btn_lucky p {
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
